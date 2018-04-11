@@ -8,3 +8,6 @@ services:
 script:
   - docker -v
   - docker-compose -v
+
+notifications:
+  email: false
